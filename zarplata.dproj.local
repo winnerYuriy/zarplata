@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.267,H:\Зарплата2016\ZARPLATA\Unit2.pas=H:\Зарплата2016\ZARPLATA\fmKadri.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.295,H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.dfm=H:\My2016Progs\Зарплата2016\ZARPLATA\fmCheckUpdate.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.139,=D:\MY_\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.715,D:\MY_\ZARPLATA\Unit2.pas=D:\MY_\ZARPLATA\fmAbout.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.050,H:\ZARPLATA\fmAnketaEdit.pas=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,H:\ZARPLATA\fmNewOsoboviy.pas=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.267,H:\Зарплата2016\ZARPLATA\Unit2.dfm=H:\Зарплата2016\ZARPLATA\fmKadri.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,H:\ZARPLATA\fmNewOsoboviy.dfm=H:\ZARPLATA\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.520,=H:\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,=H:\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.715,D:\MY_\ZARPLATA\Unit2.dfm=D:\MY_\ZARPLATA\fmAbout.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,H:\ZARPLATA\Unit2.pas=H:\ZARPLATA\fmNastr.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.020,=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.061,H:\ZARPLATA\Unit2.pas=H:\ZARPLATA\fmDM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.544,H:\ZARPLATA\Unit2.pas=H:\ZARPLATA\fmRozrahunok.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.493,H:\Зарплата2016\ZARPLATA\fm1DF.pas=H:\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.905,C:\Users\Юрій\Documents\RAD Studio\Projects\Unit2.dfm=H:\ZARPLATA\main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.269,=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.383,=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.436,=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.253,=H:\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.493,H:\Зарплата2016\ZARPLATA\fm1DF.dfm=H:\Зарплата2016\ZARPLATA\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.050,H:\ZARPLATA\fmAnketaEdit.dfm=H:\ZARPLATA\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.905,C:\Users\Юрій\Documents\RAD Studio\Projects\Unit2.pas=H:\ZARPLATA\main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.626,=C:\Users\Юрій\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.787,=C:\Users\Юрій\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.111,H:\ZARPLATA\main.dfm=H:\ZARPLATA\fmMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.883,H:\My2016Progs\Зарплата2016\ZARPLATA\fmVidpuskni.pas=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.544,H:\ZARPLATA\Unit2.dfm=H:\ZARPLATA\fmRozrahunok.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.061,H:\ZARPLATA\Unit2.dfm=H:\ZARPLATA\fmDM.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,H:\ZARPLATA\Unit2.dfm=H:\ZARPLATA\fmNastr.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.429,=C:\Users\Юрій\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.046,=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.114,=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.295,H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.pas=H:\My2016Progs\Зарплата2016\ZARPLATA\fmCheckUpdate.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.857,H:\My2016Progs\Зарплата2016\ZARPLATA\fmRozrVidpListok.pas=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.857,H:\My2016Progs\Зарплата2016\ZARPLATA\fmRozrVidpListok.dfm=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.111,H:\ZARPLATA\main.pas=H:\ZARPLATA\fmMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.883,H:\My2016Progs\Зарплата2016\ZARPLATA\fmVidpuskni.dfm=H:\My2016Progs\Зарплата2016\ZARPLATA\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.702,=H:\ZARPLATA\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.955,C:\Users\Юрій\Documents\RAD Studio\Projects\Project4.dproj=H:\ZARPLATA\zarplata.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

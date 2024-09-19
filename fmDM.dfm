@@ -1,0 +1,640 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 231
+  Width = 326
+  object dsAnketa: TDataSource
+    DataSet = Anketa
+    Left = 32
+    Top = 88
+  end
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=D:\MY' +
+      '_\'#1047#1072#1088#1087#1083#1072#1090#1072'\zarplata.mdb;Mode=Share Deny None;Persist Security In' +
+      'fo=False;Jet OLEDB:System database="";Jet OLEDB:Registry Path=""' +
+      ';Jet OLEDB:Database Password="";Jet OLEDB:Engine Type=5;Jet OLED' +
+      'B:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Je' +
+      't OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Passwo' +
+      'rd="";Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt D' +
+      'atabase=False;Jet OLEDB:Don'#39't Copy Locale on Compact=False;Jet O' +
+      'LEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False;'
+    LoginPrompt = False
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 32
+    Top = 160
+  end
+  object Anketa: TADOTable
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    TableName = 'Anketa'
+    Left = 32
+    Top = 24
+    object Anketaid: TAutoIncField
+      FieldName = 'id'
+      ReadOnly = True
+    end
+    object AnketaOsRahunok: TWideStringField
+      FieldName = 'OsRahunok'
+      Size = 10
+    end
+    object AnketaZarahovaniy: TDateTimeField
+      FieldName = 'Zarahovaniy'
+    end
+    object AnketaChildren: TSmallintField
+      FieldName = 'Children'
+    end
+    object AnketaFIO: TWideStringField
+      FieldName = 'FIO'
+      Size = 35
+    end
+    object AnketaPosada: TWideStringField
+      FieldName = 'Posada'
+      Size = 35
+    end
+    object AnketaOklad: TBCDField
+      FieldName = 'Oklad'
+      Precision = 19
+    end
+    object AnketaDodOklad: TBCDField
+      FieldName = 'DodOklad'
+      Precision = 19
+    end
+    object AnketaPremiya: TBCDField
+      FieldName = 'Premiya'
+      Precision = 19
+    end
+    object AnketaDodPremiya: TBCDField
+      FieldName = 'DodPremiya'
+      Precision = 19
+    end
+    object AnketaVidpuskni: TBCDField
+      FieldName = 'Vidpuskni'
+      Precision = 19
+    end
+    object AnketaIndexaciya: TBCDField
+      FieldName = 'Indexaciya'
+      Precision = 19
+    end
+    object AnketaNevikVidpustka: TBCDField
+      FieldName = 'NevikVidpustka'
+      Precision = 19
+    end
+    object AnketaLikFOP: TBCDField
+      FieldName = 'LikFOP'
+      Precision = 19
+    end
+    object AnketaLikFSS: TBCDField
+      FieldName = 'LikFSS'
+      Precision = 19
+    end
+    object AnketaVisluga: TSmallintField
+      FieldName = 'Visluga'
+    end
+    object AnketaKlasnist: TSmallintField
+      FieldName = 'Klasnist'
+    end
+    object AnketaNRD: TSmallintField
+      FieldName = 'NRD'
+    end
+    object AnketaSNR: TSmallintField
+      FieldName = 'SNR'
+    end
+    object AnketaVSHUP2: TSmallintField
+      FieldName = 'VSHUP2'
+    end
+    object AnketaVSHUP1: TSmallintField
+      FieldName = 'VSHUP1'
+    end
+    object AnketaOzdorovchi: TBCDField
+      FieldName = 'Ozdorovchi'
+      Precision = 19
+    end
+    object AnketaAvans: TBCDField
+      FieldName = 'Avans'
+      Precision = 19
+    end
+    object AnketaLKasa: TBCDField
+      FieldName = 'LKasa'
+      Precision = 19
+    end
+    object AnketaVikonList: TBCDField
+      FieldName = 'VikonList'
+      Precision = 19
+    end
+    object AnketaPributkoviy: TSmallintField
+      FieldName = 'Pributkoviy'
+    end
+    object AnketaViyskoviy: TBCDField
+      FieldName = 'Viyskoviy'
+      Precision = 1
+      Size = 1
+    end
+    object AnketaProfVneski: TSmallintField
+      FieldName = 'ProfVneski'
+    end
+    object AnketaOdinochka: TBooleanField
+      FieldName = 'Odinochka'
+    end
+    object AnketaWorkDay: TSmallintField
+      FieldName = 'WorkDay'
+    end
+    object AnketaDonarahOklad: TBCDField
+      FieldName = 'DonarahOklad'
+      Precision = 19
+    end
+    object AnketaDonarahVSHUP: TBCDField
+      FieldName = 'DonarahVSHUP'
+      Precision = 19
+    end
+    object AnketaDonarahPremiya: TBCDField
+      FieldName = 'DonarahPremiya'
+      Precision = 19
+    end
+    object AnketaDonarahPributkoviy: TBCDField
+      FieldName = 'DonarahPributkoviy'
+      Precision = 19
+    end
+    object AnketaDonarahViyskoviy: TBCDField
+      FieldName = 'DonarahViyskoviy'
+      Precision = 19
+    end
+    object AnketaDonarahProfVneski: TBCDField
+      FieldName = 'DonarahProfVneski'
+      Precision = 19
+    end
+  end
+  object Temp: TADOTable
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    TableName = 'TempNarah'
+    Left = 104
+    Top = 24
+    object Tempid: TAutoIncField
+      FieldName = 'id'
+      ReadOnly = True
+    end
+    object TempFIO: TWideStringField
+      FieldName = 'FIO'
+      Size = 35
+    end
+    object TempOsRahunok: TWideStringField
+      FieldName = 'OsRahunok'
+      Size = 10
+    end
+    object TempOklad: TBCDField
+      FieldName = 'Oklad'
+      Precision = 19
+    end
+    object TempPremiya: TBCDField
+      FieldName = 'Premiya'
+      Precision = 19
+    end
+    object TempVidpuskni: TBCDField
+      FieldName = 'Vidpuskni'
+      Precision = 19
+    end
+    object TempIndexaciya: TBCDField
+      FieldName = 'Indexaciya'
+      Precision = 19
+    end
+    object TempNevikVidpustka: TBCDField
+      FieldName = 'NevikVidpustka'
+      Precision = 19
+    end
+    object TempLikFOP: TBCDField
+      FieldName = 'LikFOP'
+      Precision = 19
+    end
+    object TempLikFSS: TBCDField
+      FieldName = 'LikFSS'
+      Precision = 19
+    end
+    object TempVisluga: TBCDField
+      FieldName = 'Visluga'
+      Precision = 19
+    end
+    object TempKlasnist: TBCDField
+      FieldName = 'Klasnist'
+      Precision = 19
+    end
+    object TempNRD: TBCDField
+      FieldName = 'NRD'
+      Precision = 19
+    end
+    object TempSNR: TBCDField
+      FieldName = 'SNR'
+      Precision = 19
+    end
+    object TempVSHUP: TBCDField
+      FieldName = 'VSHUP'
+      Precision = 19
+    end
+    object TempOzdorovchi: TBCDField
+      FieldName = 'Ozdorovchi'
+      Precision = 19
+    end
+    object TempAvans: TBCDField
+      FieldName = 'Avans'
+      Precision = 19
+    end
+    object TempLKasa: TBCDField
+      FieldName = 'LKasa'
+      Precision = 19
+    end
+    object TempVikonList: TBCDField
+      FieldName = 'VikonList'
+      Precision = 19
+    end
+    object TempPributkoviy: TBCDField
+      FieldName = 'Pributkoviy'
+      Precision = 19
+    end
+    object TempViyskoviy: TBCDField
+      FieldName = 'Viyskoviy'
+      Precision = 19
+    end
+    object TempProfVneski: TBCDField
+      FieldName = 'ProfVneski'
+      Precision = 19
+    end
+    object TempNarahovano: TBCDField
+      DisplayWidth = 20
+      FieldName = 'Narahovano'
+      Precision = 19
+    end
+    object TempUtrimano: TBCDField
+      DisplayWidth = 20
+      FieldName = 'Utrimano'
+      Precision = 19
+    end
+    object TempDoVidachi: TBCDField
+      DisplayWidth = 20
+      FieldName = 'DoVidachi'
+      Precision = 19
+    end
+    object TempWorkDay: TSmallintField
+      FieldName = 'WorkDay'
+    end
+    object TempDayOfMonth: TSmallintField
+      FieldName = 'DayOfMonth'
+    end
+  end
+  object dsTemp: TDataSource
+    DataSet = Temp
+    Left = 104
+    Top = 88
+  end
+  object Nastr: TADOTable
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    TableName = 'Anketa'
+    Left = 168
+    Top = 24
+    object AutoIncField1: TAutoIncField
+      FieldName = 'id'
+      ReadOnly = True
+    end
+    object WideStringField1: TWideStringField
+      FieldName = 'OsRahunok'
+      Size = 10
+    end
+    object DateTimeField1: TDateTimeField
+      FieldName = 'Zarahovaniy'
+    end
+    object SmallintField1: TSmallintField
+      FieldName = 'Children'
+    end
+    object WideStringField2: TWideStringField
+      FieldName = 'FIO'
+      Size = 35
+    end
+    object WideStringField3: TWideStringField
+      FieldName = 'Posada'
+      Size = 35
+    end
+    object BCDField1: TBCDField
+      FieldName = 'Oklad'
+      Precision = 19
+    end
+    object BCDField2: TBCDField
+      FieldName = 'DodOklad'
+      Precision = 19
+    end
+    object BCDField3: TBCDField
+      FieldName = 'Premiya'
+      Precision = 19
+    end
+    object BCDField4: TBCDField
+      FieldName = 'DodPremiya'
+      Precision = 19
+    end
+    object BCDField5: TBCDField
+      FieldName = 'Vidpuskni'
+      Precision = 19
+    end
+    object BCDField6: TBCDField
+      FieldName = 'Indexaciya'
+      Precision = 19
+    end
+    object BCDField7: TBCDField
+      FieldName = 'NevikVidpustka'
+      Precision = 19
+    end
+    object BCDField8: TBCDField
+      FieldName = 'LikFOP'
+      Precision = 19
+    end
+    object BCDField9: TBCDField
+      FieldName = 'LikFSS'
+      Precision = 19
+    end
+    object SmallintField2: TSmallintField
+      FieldName = 'Visluga'
+    end
+    object SmallintField3: TSmallintField
+      FieldName = 'Klasnist'
+    end
+    object SmallintField4: TSmallintField
+      FieldName = 'NRD'
+    end
+    object SmallintField5: TSmallintField
+      FieldName = 'SNR'
+    end
+    object SmallintField6: TSmallintField
+      FieldName = 'VSHUP2'
+    end
+    object SmallintField7: TSmallintField
+      FieldName = 'VSHUP1'
+    end
+    object BCDField10: TBCDField
+      FieldName = 'Ozdorovchi'
+      Precision = 19
+    end
+    object BCDField11: TBCDField
+      FieldName = 'Avans'
+      Precision = 19
+    end
+    object BCDField12: TBCDField
+      FieldName = 'LKasa'
+      Precision = 19
+    end
+    object BCDField13: TBCDField
+      FieldName = 'VikonList'
+      Precision = 19
+    end
+    object SmallintField8: TSmallintField
+      FieldName = 'Pributkoviy'
+    end
+    object BCDField14: TBCDField
+      FieldName = 'Viyskoviy'
+      Precision = 1
+      Size = 1
+    end
+    object SmallintField9: TSmallintField
+      FieldName = 'ProfVneski'
+    end
+    object BooleanField1: TBooleanField
+      FieldName = 'Odinochka'
+    end
+    object SmallintField10: TSmallintField
+      FieldName = 'WorkDay'
+    end
+    object BCDField15: TBCDField
+      FieldName = 'DonarahOklad'
+      Precision = 19
+    end
+    object BCDField16: TBCDField
+      FieldName = 'DonarahVSHUP'
+      Precision = 19
+    end
+    object BCDField17: TBCDField
+      FieldName = 'DonarahPremiya'
+      Precision = 19
+    end
+    object BCDField18: TBCDField
+      FieldName = 'DonarahPributkoviy'
+      Precision = 19
+    end
+    object BCDField19: TBCDField
+      FieldName = 'DonarahViyskoviy'
+      Precision = 19
+    end
+    object BCDField20: TBCDField
+      FieldName = 'DonarahProfVneski'
+      Precision = 19
+    end
+  end
+  object dsNastr: TDataSource
+    DataSet = Nastr
+    Left = 168
+    Top = 88
+  end
+  object Vidpuskni: TADOTable
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    TableName = 'Vidpuskni'
+    Left = 232
+    Top = 24
+    object Vidpuskniid: TAutoIncField
+      FieldName = 'id'
+      ReadOnly = True
+    end
+    object VidpuskniOsRahunok: TWideStringField
+      FieldName = 'OsRahunok'
+      Size = 10
+    end
+    object VidpuskniFIO: TWideStringField
+      FieldName = 'FIO'
+      Size = 35
+    end
+    object VidpuskniPosada: TWideStringField
+      FieldName = 'Posada'
+      Size = 50
+    end
+    object VidpuskniVidpZaPeriod: TWideStringField
+      FieldName = 'VidpZaPeriod'
+      Size = 120
+    end
+    object VidpuskniDays: TWideStringField
+      FieldName = 'Days'
+      Size = 3
+    end
+    object VidpuskniNakaz: TWideStringField
+      FieldName = 'Nakaz'
+      Size = 10
+    end
+    object VidpuskniDateNakaz: TWideStringField
+      FieldName = 'DateNakaz'
+      Size = 30
+    end
+    object VidpuskniNachalo: TWideStringField
+      FieldName = 'Nachalo'
+      Size = 25
+    end
+    object VidpuskniKonec: TWideStringField
+      FieldName = 'Konec'
+      Size = 25
+    end
+    object Vidpuskninarah01: TBCDField
+      FieldName = 'narah01'
+      Precision = 19
+    end
+    object Vidpuskninarah02: TBCDField
+      FieldName = 'narah02'
+      Precision = 19
+    end
+    object Vidpuskninarah03: TBCDField
+      FieldName = 'narah03'
+      Precision = 19
+    end
+    object Vidpuskninarah04: TBCDField
+      FieldName = 'narah04'
+      Precision = 19
+    end
+    object Vidpuskninarah05: TBCDField
+      FieldName = 'narah05'
+      Precision = 19
+    end
+    object Vidpuskninarah06: TBCDField
+      FieldName = 'narah06'
+      Precision = 19
+    end
+    object Vidpuskninarah07: TBCDField
+      FieldName = 'narah07'
+      Precision = 19
+    end
+    object Vidpuskninarah08: TBCDField
+      FieldName = 'narah08'
+      Precision = 19
+    end
+    object Vidpuskninarah09: TBCDField
+      FieldName = 'narah09'
+      Precision = 19
+    end
+    object Vidpuskninarah10: TBCDField
+      FieldName = 'narah10'
+      Precision = 19
+    end
+    object Vidpuskninarah11: TBCDField
+      FieldName = 'narah11'
+      Precision = 19
+    end
+    object Vidpuskninarah12: TBCDField
+      FieldName = 'narah12'
+      Precision = 19
+    end
+    object Vidpusknikoef01: TBCDField
+      FieldName = 'koef01'
+      Precision = 19
+    end
+    object Vidpusknikoef02: TBCDField
+      FieldName = 'koef02'
+      Precision = 19
+    end
+    object Vidpusknikoef03: TBCDField
+      FieldName = 'koef03'
+      Precision = 19
+    end
+    object Vidpusknikoef04: TBCDField
+      FieldName = 'koef04'
+      Precision = 19
+    end
+    object Vidpusknikoef05: TBCDField
+      FieldName = 'koef05'
+      Precision = 19
+    end
+    object Vidpusknikoef06: TBCDField
+      FieldName = 'koef06'
+      Precision = 19
+    end
+    object Vidpusknikoef07: TBCDField
+      FieldName = 'koef07'
+      Precision = 19
+    end
+    object Vidpusknikoef08: TBCDField
+      FieldName = 'koef08'
+      Precision = 19
+    end
+    object Vidpusknikoef09: TBCDField
+      FieldName = 'koef09'
+      Precision = 19
+    end
+    object Vidpusknikoef10: TBCDField
+      FieldName = 'koef10'
+      Precision = 19
+    end
+    object Vidpusknikoef11: TBCDField
+      FieldName = 'koef11'
+      Precision = 19
+    end
+    object Vidpusknikoef12: TBCDField
+      FieldName = 'koef12'
+      Precision = 19
+    end
+    object VidpuskniVsego: TBCDField
+      FieldName = 'Vsego'
+      Precision = 19
+    end
+    object VidpuskniDayVsego: TWideStringField
+      FieldName = 'DayVsego'
+      Size = 3
+    end
+    object VidpuskniDayBezZarpl: TWideStringField
+      FieldName = 'DayBezZarpl'
+      Size = 3
+    end
+    object VidpuskniSerZarplata: TBCDField
+      FieldName = 'SerZarplata'
+      Precision = 19
+    end
+    object VidpuskniSumaVidpustki: TBCDField
+      FieldName = 'SumaVidpustki'
+      Precision = 19
+    end
+    object VidpuskniMesyac1: TWideStringField
+      FieldName = 'Mesyac1'
+      Size = 10
+    end
+    object VidpuskniDen1: TWideStringField
+      FieldName = 'Den1'
+      Size = 3
+    end
+    object VidpuskniSum1: TBCDField
+      FieldName = 'Sum1'
+      Precision = 19
+    end
+    object VidpuskniMesyac2: TWideStringField
+      FieldName = 'Mesyac2'
+      Size = 10
+    end
+    object VidpuskniDen2: TWideStringField
+      FieldName = 'Den2'
+      Size = 3
+    end
+    object VidpuskniSum2: TBCDField
+      FieldName = 'Sum2'
+      Precision = 19
+    end
+    object VidpuskniMesyac3: TWideStringField
+      FieldName = 'Mesyac3'
+      Size = 10
+    end
+    object VidpuskniDen3: TWideStringField
+      FieldName = 'Den3'
+      Size = 3
+    end
+    object VidpuskniSum3: TBCDField
+      FieldName = 'Sum3'
+      Precision = 19
+    end
+    object VidpuskniMonth: TWideStringField
+      FieldName = 'Month'
+      Size = 2
+    end
+  end
+  object dsVidpuskni: TDataSource
+    DataSet = Vidpuskni
+    Left = 232
+    Top = 88
+  end
+end
